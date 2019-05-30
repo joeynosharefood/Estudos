@@ -1,0 +1,11 @@
+{
+  "name": "mirrorfashion",
+  "version": "1.0.0",
+  "description": "Trabalho efeutado para criação de um site sobre a revendedora Mirror Fashion criado para aplicação dos apredizados no curso de HTML",
+  "main": "sobre.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
