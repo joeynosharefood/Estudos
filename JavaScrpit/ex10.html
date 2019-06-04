@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Velocidade</title>
+</head>
+<body>
+    <h1>Teste de Velocidade</h1>
+    <input type='number' name='txtvel' id='txtvel'>
+    <input type='button' value='Verificar' onclick='calculated()'>
+    <div id='res'>
+        Resultado
+    </div>
+    <script>
+        res = document.querySelector('div#res')
+        function calculated(){
+            tvel = document.querySelector('input#txtvel')
+            vel = Number(tvel.value)
+            if (vel > 60){
+                res.innerText = `Você foi multado por passar em ${vel}`
+            }else {
+                res.innerText = `Você não foi multado pq passou em ${vel}`
+            }
+        }
+    </script>
+</body>
+</html>
