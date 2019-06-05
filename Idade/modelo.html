@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel='stylesheet' href='css\estilo.css'>
+</head>
+<body>
+    <header>
+        <h1>Teste de Idade</h1>
+    </header>
+    <section>
+        <div>
+            <h2>Ano de Nascimento</h2>
+            <input type="number" id='idade'>
+            <h2>Sexo</h2>
+            <select name="sexo" id="sexo">
+                <option value="mas">Masculino</option>
+                <option value="fem">Feminino</option>
+            </select>
+            <input type="button" value="Testar" onclick = 'start()'>
+        </div>
+        <div>
+            <p id='info'></p>
+        </div>
+        <div id='imagem'>
+            <img src="img/default.png" alt="rosto" id='rosto'>
+        </div>
+    </section>
+    <footer>
+        <p>&copy;  Sponton Industries
+    </footer>
+    <script src="js\script.js"></script>
+</body>
+</html>
