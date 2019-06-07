@@ -1,0 +1,35 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: rgb(59, 142, 190);
+}
+.out{
+    color: white;
+    text-align: center;
+}
+header{
+    font-size: 22pt;
+}
+#box{
+    background: white;
+    width: 500px;
+    height: 600px;
+    border-radius: 35px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.514);
+    margin: auto;
+}
+#dataentry{
+    padding: 25px;
+}
+#arraybox{
+    width: 360px;
+    margin: 25px;
+    float: left;
+    font-size: 15pt;
+}
+#inforeturn{
+    margin: 25px;
+    clear: left;
+}
+#answer{
+    margin: 25px;
+}

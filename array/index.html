@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Array Analyzer</title>
+    <link rel="stylesheet" href="css\style.css">
+</head>
+<body>
+    <header class='out'>
+        <h1>Array Analyzer</h1>
+    </header>
+    <section id='box'>
+        <div id='dataentry'>
+            Insira um valor entre 1 à 100
+            <input type="number" id='numbertext'>
+            <input type="button" id='numberentry' value='Add' onclick="startEntry()">
+        </div>
+        <div id='selectbox'>
+            <select id='arraybox' size='4'>
+
+            </select>
+            <input type="button" id='inforeturn' value="Analyze" onclick="startAnalyze()">
+        </div>
+        <div id='answer'>
+
+        </div>
+    </section>
+    <footer class='out'>
+        <h2>&copy; Sponton Industries</h2>
+    </footer>
+    <script src="js\script.js"></script>
+</body>
+</html>

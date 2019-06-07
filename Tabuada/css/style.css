@@ -1,0 +1,27 @@
+#textbox{
+    width: 251px;
+    font: normal 15pt Arial;
+}
+#box{
+    background: white;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    border-radius: 45px;
+    font-size: 15pt;
+}
+body{
+    background: rgb(81, 135, 197);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.out{
+    color: white;
+    text-align: center;
+}
+header{
+    font-size: 50px;
+}
+div{
+    text-align: center;
+    margin: 20px;
+}

@@ -2,13 +2,16 @@ inicioStr = document.querySelector('input#inicio')
 fimStr = document.querySelector('input#fim')
 passoStr = document.querySelector('input#passo')
 divAnswer = document.querySelector('div#answer')
+inicioStr = inicioStr.value
+fimStr = fimStr.value
+passoStr = passoStr.value
 
 function start(){
     generateStructure()
 }
 
 function generateStructure(){
-    if (inicioStr.lenght == 0 || fimStr.lenght == 0 || passoStr.lenght == 0){
+    if (inicioStr.length == 0 || fimStr.length == 0 || passoStr.length == 0){
         alert('Erro')
         divAnswer.innerHTML = 'Impossivel contar, tente novamente'
     }else{
